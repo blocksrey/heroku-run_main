@@ -1,2 +1,4 @@
 #!/bin/sh
-echo "run main" && . $1/main
+cd $1
+echo "run main"
+. main

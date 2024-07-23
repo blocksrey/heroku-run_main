@@ -1,5 +1,2 @@
 #!/bin/sh
-ls $0
-echo next
-ls $1
-echo "run main" && ./main
+echo "run main" && ./$1/main

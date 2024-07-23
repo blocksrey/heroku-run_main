@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "run main" && ./$1/main
+echo "run main" && . $1/main

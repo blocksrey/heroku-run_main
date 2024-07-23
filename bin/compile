@@ -1,4 +1,4 @@
 #!/bin/sh
 cd $1
-echo "run main"
+chmod +x main
 ./main

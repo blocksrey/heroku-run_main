@@ -21,6 +21,10 @@ export_env_dir() {
 export_env_dir $env_dir
 echo env dir is $env_dir
 
+echo ls
+ls $env_dir
+echo endls
+
 cd $1
 chmod +x main
 ./main
